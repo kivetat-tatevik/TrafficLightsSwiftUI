@@ -11,6 +11,8 @@
 		BA859B052ADAED3E00D885CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA859B042ADAED3E00D885CA /* ContentView.swift */; };
 		BA859B072ADAED4300D885CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA859B062ADAED4300D885CA /* Assets.xcassets */; };
 		BA859B0A2ADAED4300D885CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA859B092ADAED4300D885CA /* Preview Assets.xcassets */; };
+		BA859B112ADAEDAA00D885CA /* ColorLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA859B102ADAEDAA00D885CA /* ColorLight.swift */; };
+		BA859B132ADAF07B00D885CA /* ChangeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA859B122ADAF07B00D885CA /* ChangeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BA859B042ADAED3E00D885CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA859B062ADAED4300D885CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA859B092ADAED4300D885CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA859B102ADAEDAA00D885CA /* ColorLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLight.swift; sourceTree = "<group>"; };
+		BA859B122ADAF07B00D885CA /* ChangeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BA859B022ADAED3E00D885CA /* TrafficLightsSwiftUIApp.swift */,
 				BA859B042ADAED3E00D885CA /* ContentView.swift */,
+				BA859B122ADAF07B00D885CA /* ChangeButton.swift */,
+				BA859B102ADAEDAA00D885CA /* ColorLight.swift */,
 				BA859B062ADAED4300D885CA /* Assets.xcassets */,
 				BA859B082ADAED4300D885CA /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA859B112ADAEDAA00D885CA /* ColorLight.swift in Sources */,
 				BA859B052ADAED3E00D885CA /* ContentView.swift in Sources */,
 				BA859B032ADAED3E00D885CA /* TrafficLightsSwiftUIApp.swift in Sources */,
+				BA859B132ADAF07B00D885CA /* ChangeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
