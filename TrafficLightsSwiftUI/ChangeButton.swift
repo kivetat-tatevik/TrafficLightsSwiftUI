@@ -21,6 +21,8 @@ struct ChangeButton: View {
         .frame(width: 200, height: 60)
         .background(Color(.blue))
         .clipShape(Capsule())
+        .overlay(Capsule().stroke(Color.white, lineWidth: 2))
+        .shadow(radius: 10)
     }
 }
 

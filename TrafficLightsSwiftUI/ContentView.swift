@@ -11,20 +11,9 @@ enum CurrentLight {
 }
 
 struct ContentView: View {
-    
     @State private var buttonTitle = "START"
     @State private var currentLight = CurrentLight.red
     
-    private func nextColor() {
-        switch currentLight {
-        case .red: currentLight = .yellow
-        case .yellow: currentLight = .green
-        case .green: currentLight = .red
-        }
-    }
-}
-
-extension ContentView {
     var body: some View {
         ZStack {
             Color(.black)
@@ -51,6 +40,14 @@ extension ContentView {
                 }
             }
             .padding()
+        }
+    }
+    
+    private func nextColor() {
+        switch currentLight {
+        case .red: currentLight = .yellow
+        case .yellow: currentLight = .green
+        case .green: currentLight = .red
         }
     }
 }
